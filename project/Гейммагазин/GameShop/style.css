@@ -1401,6 +1401,15 @@ transition: height 0.3s linear;
   }
 }
 @media screen and (max-width:576px){
+  .ac-container label{
+    font-size: 1.25rem;
+  }
+  .ac-container article p{
+    font-size: 1rem;
+  }
+  .ac-container input:checked ~ article.ac-small{
+  	height: 130px;
+  }
   .bannerbox1 {
     background-position: 55%;
   }
@@ -1539,5 +1548,21 @@ transition: height 0.3s linear;
   footer p {
     font-size: 1rem;
     line-height: 12px;
+  }
+}
+@media screen and (max-width:375px){
+  .ac-container label:before, .ac-container input:checked + label:before{
+    top: 9px;
+    background-size: 60%;
+    left: 10px;
+  }
+  .ac-container label{
+    font-size: 0.8rem;
+  }
+  .ac-container article p{
+    font-size: 1rem;
+  }
+  .ac-container input:checked ~ article.ac-small{
+  	height: 195px;
   }
 }
