@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/animate.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+          <input type="checkbox" id="checkbox-menu">
+          <label for="checkbox-menu">
+            <nav>
+                <ul class="menu touch" id="menubar">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skils</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+                <span class="toggle"><i class="fas fa-bars"></i></span>
+                </label>
+            </nav>
+            <div class="header_h1"  id="head_h1">
+            <h1 class="header_text">Front-end<br>Developer</h1>
+            </div>
+        </header>
+
+        <div class="about" id="about">
+           <div class="wrapper">
+            <div class="about_h2">
+                <h2>About</h2>
+            </div>
+            <div class="about_container">
+            <div class="container_img">
+            <div class="about_img">
+                <img src="assets/img/me_1.png" alt="about_me" class="img_1 curry wow flipInX" id="img_1" >
+                <img src="assets/img/me_2%20(1)-min.png" alt="about_me" class="img_2" id="img_2">
+
+            </div>
+            <div class="container_input">
+                <input type="checkbox" id="imgselector" onclick="checkBox()"/><label for="imgselector"></label>
+            </div>
+            </div>
+            <div class="about_text" id="about_text">
+                <p class="text_p wow rotateInDownRight">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque veniam cupiditate, quis laudantium animi repudiandae cum sapiente, placeat porro ab enim eum, aspernatur in explicabo numquam? Error vel in consequatur, maiores ipsum, iste dolor illum necessitatibus maxime, assumenda nisi tempora delectus officia animi ex. Omnis ipsum consequatur consectetur nobis incidunt?</p>
+            </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="skills" id="skills">
+            <div class="wrapper">
+                <div class="skills_h2">
+                    <h2>Skills</h2>
+                </div>
+                <div class="skills_container">
+                        <p class="wow fadeInLeft">HTML</p>
+                        <p class="wow fadeInRight">CSS</p>
+                        <p class="wow fadeInLeft">SASS</p>
+                        <p class="wow fadeInRight">JAVASCRIPT</p>
+                        <p class="wow fadeInLeft">Typesetting of PSD, FIGMA layout</p>
+                    </div>
+            </div>
+        </div>
+
+
+        <div class="portfolio" id="portfolio">
+            <div class="wrapper">
+               <div class="portfolio_h2">
+                   <h2>Portfolio</h2>
+               </div>
+                <div class="portfolio_box">
+                    <div class="box_card">
+                       <a href="kia_landing/index.html">
+                        <div class="card_img">
+                            <img src="assets/img/landing_kia%20(1).png" alt="KIA_Landing" class="img_photo">
+                        </div>
+                        <div class="card_text">
+                            <p>Layout of Figma KIA Landing page</p>
+                        </div>
+                        </a>
+                    </div>
+
+                    <div class="box_card">
+                       <a href="kinoportal/index.html">
+                        <div class="card_img">
+                            <img src="assets/img/remont-min.png" alt="Kinoportal" class="img_photo">
+                        </div>
+                        <div class="card_text">
+                            <p>Layout of PSD Laptop Repair Landing page</p>
+                        </div>
+                        </a>
+                    </div>
+
+                    <div class="box_card">
+                       <a href="layoutofPSD/index.html">
+                        <div class="card_img">
+                            <img src="assets/img/mokup-min (1).png" alt="PSD layout" class="img_photo">
+                        </div>
+                        <div class="card_text">
+                            <p>Layout of PSD Luxestate Landing page</p>
+                        </div>
+                        </a>
+                    </div>
+
+                    <div class="box_card">
+                       <a href="kinoportal/index.html">
+                        <div class="card_img">
+                            <img src="assets/img/kinoportal-min.png" alt="Kinoportal" class="img_photo">
+                        </div>
+                        <div class="card_text">
+                            <p>Layout of Figma KIA Landing page</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contacts" id="contacts">
+            <div class="wrapper">
+                <div class="contacts_h2">
+                    <h2>Contacts</h2>
+
+                </div>
+                <div class="contacts_text">
+                    <p>Phone number: <a href="tel:+7(916)989-65-04">+7(916)989-65-04</a></p>
+                    <p>E-mail: <a href="mailto:polarizer700@gmail.com">polarizer700@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+<script src="js/wow.js"></script>
+<script>
+              new WOW().init();
+              </script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="js/script1.js"></script>
+<script src="https://kit.fontawesome.com/d978d2968a.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
