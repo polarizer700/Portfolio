@@ -37,7 +37,26 @@ secondClose.onclick = function() {
 }
 
 
+$('.accordion-head .heading').on('click', function(e) {
+    e.preventDefault();
 
+    // Add the correct active class
+    if($(this).closest('.accordion-head').hasClass('active')) {
+        // Remove active classes
+        $('.accordion-head').removeClass('active');
+    } else {
+        // Remove active classes
+        $('.accordion-head').removeClass('active');
+
+        // Add the active class
+        $(this).closest('.accordion-head').addClass('active');
+    }
+
+    // Show the content
+    var $content = $(this).next();
+    $content.slideToggle(100);
+    $('text_p').not($content).slideUp('fast');
+});
 /*plus.onclick = function() {
   plus.style.display = "none";
   document.querySelector('.text_p').style.display = 'block';
