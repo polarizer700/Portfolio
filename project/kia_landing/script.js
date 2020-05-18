@@ -96,3 +96,31 @@ $(document).ready( function () {
 
                     });
                  });
+
+table1.onclick = function(){
+  document.getElementById('table1').classList.add("clickerTable");
+  document.getElementById('table2').classList.remove("clickerTable");
+  document.getElementById('table3').classList.remove("clickerTable");
+  document.getElementById('text1').innerHTML = 123;
+  document.getElementById('text2').innerHTML = 151;
+  document.getElementById('text3').innerHTML = 7.4;
+  document.getElementById('text4').innerHTML = 12.01;
+}
+table2.onclick = function(){
+  document.getElementById('table1').classList.remove("clickerTable");
+  document.getElementById('table2').classList.add("clickerTable");
+  document.getElementById('table3').classList.remove("clickerTable");
+  document.getElementById('text1').innerHTML = 150;
+  document.getElementById('text2').innerHTML = 192;
+  document.getElementById('text3').innerHTML = 8.4;
+  document.getElementById('text4').innerHTML = 9.2;
+}
+table3.onclick = function(){
+  document.getElementById('table1').classList.remove("clickerTable");
+  document.getElementById('table2').classList.remove("clickerTable");
+  document.getElementById('table3').classList.add("clickerTable");
+  document.getElementById('text1').innerHTML = 200;
+  document.getElementById('text2').innerHTML = 265;
+  document.getElementById('text3').innerHTML = 9.01;
+  document.getElementById('text4').innerHTML = 7.5;
+}
