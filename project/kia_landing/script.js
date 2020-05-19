@@ -124,3 +124,18 @@ table3.onclick = function(){
   document.getElementById('text3').innerHTML = 9.01;
   document.getElementById('text4').innerHTML = 7.5;
 }
+
+interier.onclick = function(){
+  document.getElementById('exterior').classList.remove("clickerTable");
+  document.getElementById('interier').classList.add("clickerTable");
+  document.getElementById('clickInterier').classList.remove("displayNone");
+  document.getElementById("colors").style.display = "none";
+  document.getElementById("showrum").style.display = "none";
+}
+exterior.onclick = function(){
+  document.getElementById('exterior').classList.add("clickerTable");
+  document.getElementById('interier').classList.remove("clickerTable");
+  document.getElementById('clickInterier').classList.add("displayNone");
+  document.getElementById("colors").style.display = "flex";
+  document.getElementById("showrum").style.display = "flex";
+}
