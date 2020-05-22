@@ -116,6 +116,8 @@ font-weight: 800;
   display: -ms-flex;
   display: flex;
   justify-content: space-around;
+  -ms-align-items: center;
+  align-items: center;
   width: 194px;
 height: 46px;
 border-radius: 23px;

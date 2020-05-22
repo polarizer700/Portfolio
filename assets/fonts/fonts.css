@@ -1,7 +1,7 @@
 @font-face{
     font-family: "STARWARS";
-    src: url("STARWARS.ttf") format("truetype");
+    src:local('Circe ExtraLight'), local('Circe-ExtraLight'), url("STARWARS.ttf") format("truetype");
     font-style:normal;
     font-weight: normal;
-       
+
 }

@@ -271,7 +271,6 @@ nav {
   margin-top: 0;
 }
 
-
 .portfolio {
   background: #000000;
   background-image: url(assets/img/stars.png);
@@ -284,7 +283,6 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
 
 .box_card {
@@ -347,9 +345,7 @@ nav {
 }
 
 .contacts_text p:hover {
-  -webkit-transform: scale(1.2,1.2);
-  -ms-transform: scale(1.2,1.2);
-  transform: scale(1.2,1.2);
+  transform: scale(1.2, 1.2);
   transition: 1s;
 }
 
@@ -429,10 +425,6 @@ nav {
   .contacts_text p {
     font-size: 1.5rem;
   }
-
-  .contacts_text p:hover {
-    font-size: 1.6rem;
-  }
 }
 @media screen and (max-width: 480px) {
   html {
@@ -473,9 +465,5 @@ nav {
 
   .contacts_text p {
     font-size: 1rem;
-  }
-
-  .contacts_text p:hover {
-    font-size: 1.3rem;
   }
 }

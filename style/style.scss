@@ -137,7 +137,7 @@ header{
 nav{
     margin-right: 2rem;
     padding-top: 2rem;
-    
+
 }
     .menu li{
     list-style: none;
@@ -160,13 +160,13 @@ nav{
   transition: 0.3s;
   border-radius: 5px;
     }
-   
+
 
 .menu{
     display: flex;
     justify-content: flex-end;
     font-size: 1rem;
-   
+
     }
 #checkbox-menu,
 .toggle{
@@ -198,7 +198,7 @@ nav{
     justify-content: flex-start;
     color: #FFFFFF;
     margin-left: 1rem;
-    
+
 }
 .about_img{
     display: -webkit-flex;
@@ -346,7 +346,7 @@ width: 50%;
   box-shadow: 0px 0px 15px #F774F8;
   transition: 0.3s;
   border-radius: 10px;
-    
+
 }
 .box_card:nth-child(even):hover{
     cursor: pointer;
@@ -354,7 +354,7 @@ width: 50%;
   box-shadow: 0px 0px 15px $ColorToggle;
   transition: 0.3s;
   border-radius: 10px;
-    
+
 }
 .card_text{
     color: #FFFFFF;
@@ -373,8 +373,9 @@ width: 50%;
     display: -o-flex;
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
 }
+
 
 .contacts_text p{
     margin-top: 2rem;
@@ -385,7 +386,11 @@ width: 50%;
     color: #FFFFFF;
 }
 .contacts_text p:hover{
-    font-size: 2rem;
+  -moz-transform: scale(1.2,1.2);
+-webkit-transform: scale(1.2,1.2);
+-o-transform: scale(1.2,1.2);
+-ms-transform: scale(1.2,1.2);
+transform: scale(1.2,1.2);
     transition: 1s;
 }
 
@@ -417,7 +422,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2fe249",endCo
     transition: all 0.1s linear;
         height: 2rem;
   }
-  
+
   #checkbox-menu:checked + label .touch li{
       font-size: 1.5rem;
     opacity: 1;
@@ -459,10 +464,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2fe249",endCo
     .contacts_text p{
         font-size: 1.5rem;
     }
-    .contacts_text p:hover {
-    font-size: 1.6rem;
-    }
-    
+
+
 }
 
 
@@ -473,7 +476,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2fe249",endCo
     header{
         min-height: 17rem;
     }
-   
+
     .toggle {
     line-height: 25px;
     }
@@ -499,8 +502,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2fe249",endCo
     .contacts_text p{
         font-size: 1rem;
     }
-    .contacts_text p:hover{
-        font-size:  1.3rem;
-    }
-    
+
+
 }
